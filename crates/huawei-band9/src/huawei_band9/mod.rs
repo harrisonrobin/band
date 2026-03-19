@@ -1,0 +1,10 @@
+pub mod auth;
+pub mod bootstrap;
+pub mod capabilities;
+pub mod files;
+pub mod fitness;
+pub mod notifications;
+pub mod ota;
+pub mod session;
+pub mod weather;
+pub mod workouts;
