@@ -1,0 +1,633 @@
+Loaded 39 action windows
+
+════════════════════════════════════════════════════════════════════════════════════════════════════
+  MAESTRO TIMELINE
+  ▸ Action windows loaded
+════════════════════════════════════════════════════════════════════════════════════════════════════
+        TIME  ACTION                 DIR   CH  CHANNEL         DECODED
+  ────────────────────────────────────────────────────────────────────────────────────────────────
+  ┌─ fast_pair ───────────────────────────────────────────────────────────────────────
+  03:14:56.278  [fast_pair           ]  DATA→buds    8  KEEPALIVE       pong val=36
+  03:14:56.389  [fast_pair           ]  DATA→buds    2  HANDSHAKE       raw cap token 6c17f8151cc6
+  03:14:56.533  [fast_pair           ]  DATA→buds    3  REALTIME CONTROL  battery bud=100% in_case case=28%
+  03:14:56.737  [fast_pair           ]  0x0d   10  DEVICE REG      AT IND IND: ("call",(0,1)),("callsetup",(0-3)),
+  03:14:56.737  [fast_pair           ]  0x2c   40  UNK_40          proto [?]
+  03:14:56.792  [fast_pair           ]  CLOSE    2  HANDSHAKE       raw cap token 
+  03:14:56.792  [fast_pair           ]  PING    3  REALTIME CONTROL  empty
+  03:14:56.792  [fast_pair           ]  DATA→phone   12  UNK_12          ascii 
+  03:14:56.792  [fast_pair           ]  CLOSE    4  VERSION/AUDIO   AUDIO STREAM 0B
+  03:14:56.792  [fast_pair           ]  RESPONSE    4  VERSION/AUDIO   AUDIO STREAM 0B
+  03:14:56.792  [fast_pair           ]  CLOSE   17  UNK_17          ascii 
+  03:14:56.792  [fast_pair           ]  CLOSE   19  UNK_19          ascii 
+  03:14:56.792  [fast_pair           ]  CLOSE   21  UNK_21          ascii 
+  03:14:56.792  [fast_pair           ]  OPEN_ACK    5  CONN STATE      conn IDLE
+  03:14:56.792  [fast_pair           ]  OPEN_ACK    5  CONN STATE      conn CONNECTED
+  03:14:56.939  [fast_pair           ]  DATA→phone   10  DEVICE REG      device_id=3df7c2e
+  03:14:56.940  [fast_pair           ]  CLOSE    3  REALTIME CONTROL  INIT/CASE
+  03:14:56.941  [fast_pair           ]  DATA→buds    2  HANDSHAKE       phone init fw=0.0.1
+  03:14:56.944  [fast_pair           ]  PING    2  HANDSHAKE       handshake proto
+  03:14:56.944  [fast_pair           ]  OPEN_ACK    4  VERSION/AUDIO   AUDIO STREAM 15B
+  03:14:56.944  [fast_pair           ]  OPEN_ACK    4  VERSION/AUDIO   AUDIO STREAM 75B
+  03:14:56.949  [fast_pair           ]  CLOSE    5  CONN STATE      conn unknown(3)
+  03:14:56.988  [fast_pair           ]  OPEN    7  AUDIO CONFIG    audio cfg sr=16000Hz bit=24 codec=2
+  03:14:57.006  [fast_pair           ]  DATA→buds    3  REALTIME CONTROL  battery bud=100% in_case case=28%
+  03:14:57.082  [fast_pair           ]  OPEN_ACK    5  CONN STATE      conn IDLE
+  03:14:57.130  [fast_pair           ]  OPEN_ACK    4  VERSION/AUDIO   version fw=0.0.1
+  03:14:57.139  [fast_pair           ]  OPEN_ACK    5  CONN STATE      conn CONNECTED
+  03:14:57.179  [fast_pair           ]  RESPONSE    2  HANDSHAKE       model: buds A
+  03:14:57.238  [fast_pair           ]  OPEN_ACK    4  VERSION/AUDIO   version fw=0.0.1
+  03:14:57.281  [fast_pair           ]  OPEN_ACK   11  STATUS STREAM   seq=200Q
+  03:14:57.348  [fast_pair           ]  OPEN_ACK    6  CAPABILITY FLAGS  caps channels=11 rev=1
+  03:14:58.755  [fast_pair           ]  STATE_SNAPSHOT    2  HANDSHAKE       snap proto
+  03:14:58.755  [fast_pair           ]  STATE_SNAPSHOT    5  CONN STATE      snap proto
+  03:14:58.755  [fast_pair           ]  STATE_SNAPSHOT    6  CAPABILITY FLAGS  snap proto
+  03:14:58.760  [fast_pair           ]  STATE_SNAPSHOT    4  VERSION/AUDIO   snap raw 00
+  03:14:58.816  [fast_pair           ]  0x00  135  UNK_135         diag 
+  03:14:58.878  [fast_pair           ]  STATE_SNAPSHOT   10  DEVICE REG      snap unknown_8=1
+  03:14:58.878  [fast_pair           ]  STATE_SNAPSHOT   10  DEVICE REG      snap IN_EAR_DETECT=on
+  03:14:58.878  [fast_pair           ]  STATE_SNAPSHOT   10  DEVICE REG      snap unknown_3=0
+  03:14:58.878  [fast_pair           ]  STATE_SNAPSHOT   10  DEVICE REG      snap ADAPTIVE_SOUND=off
+  03:14:58.878  [fast_pair           ]  STATE_SNAPSHOT   10  DEVICE REG      snap setting_0x38=1
+  03:14:58.878  [fast_pair           ]  STATE_SNAPSHOT   10  DEVICE REG      snap unknown_8=1
+  03:14:58.878  [fast_pair           ]  STATE_SNAPSHOT   10  DEVICE REG      snap setting_0x50=0
+  03:14:58.878  [fast_pair           ]  STATE_SNAPSHOT   10  DEVICE REG      snap TOUCH_CONTROLS=on
+  03:14:58.878  [fast_pair           ]  STATE_SNAPSHOT   10  DEVICE REG      snap setting_0x60=0
+  03:14:58.878  [fast_pair           ]  STATE_SNAPSHOT   10  DEVICE REG      snap VOLUME_EQ=off
+  03:14:58.878  [fast_pair           ]  STATE_SNAPSHOT   10  DEVICE REG      snap BASS_EQ_LEVEL=6
+  03:14:58.878  [fast_pair           ]  STATE_SNAPSHOT    5  CONN STATE      snap proto
+  └─────────────────────────────────────────────────────────────────────────────────
+  03:15:25.852  [                    ]  0x4e   85  UNK_85          proto [?]
+  03:15:25.852  [                    ]  0x41   65  UNK_65          proto [?]
+  03:15:25.852  [                    ]  0x58   73  UNK_73          proto [?]
+  03:15:25.852  [                    ]  0x56   69  UNK_69          proto [?]
+  03:15:25.852  [                    ]  OPEN_ACK    0  UNK_0           raw 05
+  03:15:25.852  [                    ]  OPEN    0  UNK_0           proto [?]
+  03:15:25.852  [                    ]  0x56  108  UNK_108         raw 5255355552564a6651554e5553565a4658303150524556665130394e554578465645564510031d9a5802002001050100400a35242f685a384e5235686348426661574a79644639795958646664576c665a327876596d467358326868626d52735a5849534141
+  03:15:25.852  [                    ]  0x3d   61  UNK_61          proto [?]
+  ┌─ left_out_case ───────────────────────────────────────────────────────────────────
+  03:15:34.158  [left_out_case       ]  DATA→buds    3  REALTIME CONTROL  raw cmd class=0x6 cmd=0x4
+  03:15:34.308  [left_out_case       ]  0x10    2  HANDSHAKE       handshake proto
+  03:15:34.308  [left_out_case       ]  0x63  111  UNK_111         diag ary-mobile: 13.7 dBm; rx gain level: 7; tws chl ma
+  03:15:34.308  [left_out_case       ]  0x38   32  LOG EXTENDED    raw 6d3b20686670206c6f737320302c20746f74616c20303b2010031d3179020020018706002508cff20910c9b78da6ce3332120a04081c10011204086410011a040864
+  03:15:34.642  [left_out_case       ]  DATA→buds    3  REALTIME CONTROL  raw cmd class=0x6 cmd=0x4
+  03:15:34.702  [left_out_case       ]  DATA→phone   11  STATUS STREAM   seq=0 wear=BOTH_OUT tick=161263us batt_adc=126 conn=0x1
+  03:15:34.702  [left_out_case       ]  OPEN   11  STATUS STREAM   seq=1000
+  03:15:36.178  [left_out_case       ]  DATA→phone   12  UNK_12          ascii 
+  03:15:36.203  [left_out_case       ]  CLOSE    2  HANDSHAKE       raw cap token 
+  03:15:36.203  [left_out_case       ]  PING    3  REALTIME CONTROL  empty
+  03:15:36.203  [left_out_case       ]  CLOSE    4  VERSION/AUDIO   AUDIO STREAM 0B
+  03:15:36.203  [left_out_case       ]  RESPONSE    4  VERSION/AUDIO   AUDIO STREAM 0B
+  03:15:36.203  [left_out_case       ]  CLOSE   17  UNK_17          ascii 
+  03:15:36.203  [left_out_case       ]  CLOSE   19  UNK_19          ascii 
+  03:15:36.203  [left_out_case       ]  CLOSE   21  UNK_21          ascii 
+  03:15:36.238  [left_out_case       ]  DATA→phone   10  DEVICE REG      device_id=3df7c2e
+  03:15:36.253  [left_out_case       ]  CLOSE    3  REALTIME CONTROL  TEARDOWN
+  03:15:36.254  [left_out_case       ]  PING    2  HANDSHAKE       handshake proto
+  03:15:36.256  [left_out_case       ]  DATA→buds    2  HANDSHAKE       phone init fw=0.0.1
+  03:15:36.271  [left_out_case       ]  CLOSE    5  CONN STATE      conn unknown(3)
+  03:15:36.338  [left_out_case       ]  OPEN    7  AUDIO CONFIG    audio cfg sr=16000Hz bit=24 codec=2
+  03:15:36.551  [left_out_case       ]  RESPONSE    2  HANDSHAKE       model: buds A
+  03:15:36.815  [left_out_case       ]  OPEN_ACK    4  VERSION/AUDIO   AUDIO STREAM 15B
+  03:15:36.829  [left_out_case       ]  OPEN_ACK    5  CONN STATE      conn CONNECTED
+  03:15:36.886  [left_out_case       ]  OPEN_ACK    4  VERSION/AUDIO   AUDIO STREAM 75B
+  03:15:36.911  [left_out_case       ]  OPEN_ACK   11  STATUS STREAM   seq=200Q
+  03:15:36.971  [left_out_case       ]  OPEN_ACK    6  CAPABILITY FLAGS  caps channels=11 rev=1
+  03:15:37.916  [left_out_case       ]  STATE_SNAPSHOT    2  HANDSHAKE       snap proto
+  03:15:37.916  [left_out_case       ]  STATE_SNAPSHOT    5  CONN STATE      snap proto
+  03:15:37.916  [left_out_case       ]  STATE_SNAPSHOT    6  CAPABILITY FLAGS  snap proto
+  03:15:39.947  [left_out_case       ]  DATA→buds    8  KEEPALIVE       pong val=36
+  03:15:39.954  [left_out_case       ]  DATA→buds    2  HANDSHAKE       empty proto
+  03:15:39.962  [left_out_case       ]  DATA→buds    3  REALTIME CONTROL  raw cmd class=0x6 cmd=0x4
+  03:15:43.783  [left_out_case       ]  STATE_SNAPSHOT    6  CAPABILITY FLAGS  snap proto
+  └─────────────────────────────────────────────────────────────────────────────────
+  03:15:52.257  [                    ]  0x76  101  UNK_101         diag secondary-mobile: 3.1 dBm; rx ga
+  ┌─ left_in_ear ─────────────────────────────────────────────────────────────────────
+  03:16:07.285  [left_in_ear         ]  CLOSE    5  CONN STATE      conn STREAMING
+  03:16:07.328  [left_in_ear         ]  0x10    3  REALTIME CONTROL  raw cmd class=0xf cmd=0xb
+  03:16:07.328  [left_in_ear         ]  OPEN_ACK    0  UNK_0           raw 05
+  03:16:07.328  [left_in_ear         ]  OPEN    0  UNK_0           proto [?]
+  03:16:07.328  [left_in_ear         ]  0x3d   61  UNK_61          proto [?]
+  03:16:07.328  [left_in_ear         ]  0x00   32  LOG EXTENDED    log '$UK+ImwdDb25uZWN0OgA='
+  03:16:07.328  [left_in_ear         ]  0x52  119  UNK_119         raw 10031d16fb02002001050100140a09246639494853673d3d10031d16fb02002001050100500a45244f787a36727978495957356b62475567535731745a
+  03:16:07.328  [left_in_ear         ]  0x57   82  UNK_82          proto [?]
+  03:16:07.328  [left_in_ear         ]  0x6c  112  UNK_112         raw 634f554746316332566b4c314e30623342775a57513d10031d1cfb02002001050100180a0d24424578775977414341673d3d10031d1dfb020020010501002c0a212468776b4e62516444623235755a574e30435656345247566d595856736441413d10031d1dfb020020010501
+  03:16:07.350  [left_in_ear         ]  PING    2  HANDSHAKE       handshake proto
+  03:16:07.388  [left_in_ear         ]  OPEN    8  KEEPALIVE       raw 
+  03:16:07.388  [left_in_ear         ]  CLOSE   17  UNK_17          ascii 
+  └─────────────────────────────────────────────────────────────────────────────────
+  03:16:21.354  [                    ]  0x6c  101  UNK_101         diag l primary-mobile: 13.7 dBm; rx gain level: 6; tws 
+  ┌─ left_out_ear ────────────────────────────────────────────────────────────────────
+  03:16:33.986  [left_out_ear        ]  CLOSE    5  CONN STATE      conn unknown(3)
+  03:16:33.997  [left_out_ear        ]  OPEN    9  WEAR+TOUCH      GESTURE_COMPLETE=complete(6)
+  03:16:34.044  [left_out_ear        ]  PING    2  HANDSHAKE       handshake proto
+  03:16:34.053  [left_out_ear        ]  0x18   10  DEVICE REG      ascii tzgajwACW10=|c   0
+%$LibY2glD
+  03:16:34.053  [left_out_ear        ]  OPEN    5  CONN STATE      raw 
+  03:16:34.053  [left_out_ear        ]  0x3d   16  UNK_16          proto [?]
+  03:16:34.053  [left_out_ear        ]  0x5a   87  UNK_87          raw 4f67413d10031d7a6303002001050100200a15243530566f635151485730314652456c4258513d3d10031d7b63030020
+  03:16:34.053  [left_out_ear        ]  0x62   50  UNK_50          proto [?]
+  03:16:34.170  [left_out_ear        ]  0x6c   68  UNK_68          proto [?]
+  ┌─ left_in_case ────────────────────────────────────────────────────────────────────
+  03:16:51.611  [left_in_case        ]  DATA→buds    3  REALTIME CONTROL  raw cmd class=0x6 cmd=0x4
+  03:16:51.640  [left_in_case        ]  STATE_SNAPSHOT    6  CAPABILITY FLAGS  snap proto
+  03:16:51.674  [left_in_case        ]  0x34   51  UNK_51          proto [?]
+  03:16:51.674  [left_in_case        ]  0x1d  130  UNK_130         diag   
+  03:16:51.829  [left_in_case        ]  CLOSE    3  REALTIME CONTROL  INIT/CASE
+  03:16:51.890  [left_in_case        ]  DATA→buds    3  REALTIME CONTROL  battery bud=100% in_case case=27%
+  03:16:51.898  [left_in_case        ]  STATE_SNAPSHOT    6  CAPABILITY FLAGS  snap proto
+  ┌─ right_out_case ──────────────────────────────────────────────────────────────────
+  03:17:13.665  [right_out_case      ]  DATA→buds    2  HANDSHAKE       raw cap token 4b4053e31456
+  03:17:13.672  [right_out_case      ]  DATA→buds    8  KEEPALIVE       pong val=36
+  03:17:13.674  [right_out_case      ]  DATA→buds    3  REALTIME CONTROL  battery bud=100% out_case case=27%
+  03:17:13.758  [right_out_case      ]  DATA→phone   12  UNK_12          ascii 
+  03:17:13.786  [right_out_case      ]  CLOSE    2  HANDSHAKE       raw cap token 
+  03:17:13.786  [right_out_case      ]  PING    3  REALTIME CONTROL  empty
+  03:17:13.786  [right_out_case      ]  CLOSE    4  VERSION/AUDIO   AUDIO STREAM 0B
+  03:17:13.786  [right_out_case      ]  RESPONSE    4  VERSION/AUDIO   AUDIO STREAM 0B
+  03:17:13.786  [right_out_case      ]  CLOSE   17  UNK_17          ascii 
+  03:17:13.786  [right_out_case      ]  CLOSE   19  UNK_19          ascii 
+  03:17:13.786  [right_out_case      ]  CLOSE   21  UNK_21          ascii 
+  03:17:13.786  [right_out_case      ]  OPEN_ACK    5  CONN STATE      conn IDLE
+  03:17:13.786  [right_out_case      ]  OPEN_ACK    5  CONN STATE      conn CONNECTED
+  03:17:13.788  [right_out_case      ]  DATA→phone   10  DEVICE REG      device_id=3df7c2e
+  03:17:13.819  [right_out_case      ]  CLOSE    3  REALTIME CONTROL  TEARDOWN
+  03:17:13.830  [right_out_case      ]  DATA→buds    2  HANDSHAKE       phone init fw=0.0.1
+  03:17:13.837  [right_out_case      ]  PING    2  HANDSHAKE       handshake proto
+  03:17:13.847  [right_out_case      ]  OPEN    7  AUDIO CONFIG    audio cfg sr=16000Hz bit=24 codec=2
+  03:17:13.847  [right_out_case      ]  OPEN_ACK    4  VERSION/AUDIO   AUDIO STREAM 15B
+  03:17:13.847  [right_out_case      ]  OPEN_ACK    4  VERSION/AUDIO   AUDIO STREAM 75B
+  03:17:13.911  [right_out_case      ]  OPEN_ACK    5  CONN STATE      conn IDLE
+  03:17:13.942  [right_out_case      ]  CLOSE    5  CONN STATE      conn unknown(3)
+  03:17:13.944  [right_out_case      ]  DATA→buds    3  REALTIME CONTROL  battery bud=100% out_case case=27%
+  03:17:14.009  [right_out_case      ]  OPEN_ACK    4  VERSION/AUDIO   version fw=0.0.1
+  03:17:14.017  [right_out_case      ]  OPEN_ACK    5  CONN STATE      conn CONNECTED
+  03:17:14.121  [right_out_case      ]  RESPONSE    2  HANDSHAKE       model: buds A
+  03:17:14.215  [right_out_case      ]  OPEN_ACK    4  VERSION/AUDIO   version fw=0.0.1
+  03:17:14.476  [right_out_case      ]  OPEN_ACK    6  CAPABILITY FLAGS  caps channels=11 rev=1
+  03:17:15.230  [right_out_case      ]  STATE_SNAPSHOT    4  VERSION/AUDIO   snap raw 
+  03:17:15.241  [right_out_case      ]  0x00    2  HANDSHAKE       raw cap token 8707000708ddcc93
+  03:17:15.258  [right_out_case      ]  STATE_SNAPSHOT    2  HANDSHAKE       snap proto
+  03:17:15.258  [right_out_case      ]  STATE_SNAPSHOT    5  CONN STATE      snap proto
+  03:17:15.258  [right_out_case      ]  STATE_SNAPSHOT    6  CAPABILITY FLAGS  snap proto
+  03:17:15.280  [right_out_case      ]  STATE_SNAPSHOT   10  DEVICE REG      snap unknown_8=1
+  03:17:15.280  [right_out_case      ]  STATE_SNAPSHOT   10  DEVICE REG      snap IN_EAR_DETECT=on
+  03:17:15.280  [right_out_case      ]  STATE_SNAPSHOT   10  DEVICE REG      snap unknown_3=0
+  03:17:15.280  [right_out_case      ]  STATE_SNAPSHOT   10  DEVICE REG      snap ADAPTIVE_SOUND=off
+  03:17:15.280  [right_out_case      ]  STATE_SNAPSHOT   10  DEVICE REG      snap setting_0x38=1
+  03:17:15.280  [right_out_case      ]  STATE_SNAPSHOT   10  DEVICE REG      snap unknown_8=1
+  03:17:15.280  [right_out_case      ]  STATE_SNAPSHOT   10  DEVICE REG      snap setting_0x50=0
+  03:17:15.280  [right_out_case      ]  STATE_SNAPSHOT   10  DEVICE REG      snap TOUCH_CONTROLS=on
+  03:17:15.280  [right_out_case      ]  STATE_SNAPSHOT   10  DEVICE REG      snap setting_0x60=0
+  03:17:15.280  [right_out_case      ]  STATE_SNAPSHOT   10  DEVICE REG      snap VOLUME_EQ=off
+  03:17:15.280  [right_out_case      ]  STATE_SNAPSHOT   10  DEVICE REG      snap BASS_EQ_LEVEL=6
+  03:17:18.336  [right_out_case      ]  CLOSE    5  CONN STATE      conn unknown(5)
+  03:17:18.378  [right_out_case      ]  OPEN    8  KEEPALIVE       raw 
+  03:17:18.446  [right_out_case      ]  CLOSE    0  UNK_0           raw 0501
+  03:17:18.446  [right_out_case      ]  0x34   82  UNK_82          proto [?]
+  03:17:18.446  [right_out_case      ]  0x00   24  UNK_24          ascii $tzgajwACW10=
+  03:17:18.529  [right_out_case      ]  OPEN    8  KEEPALIVE       raw 
+  03:17:18.529  [right_out_case      ]  PING    2  HANDSHAKE       handshake proto
+  03:17:18.529  [right_out_case      ]  CLOSE   17  UNK_17          ascii 
+  ┌─ right_in_ear ────────────────────────────────────────────────────────────────────
+  03:17:29.523  [right_in_ear        ]  0x57   74  UNK_74          raw 4639795958646664576c665a327876596d467358326868626d52735a58495341413d3d10031d283c040020020501003c0a31246a337a306a683946566c52665255355552564a6651554e5553565a4658303150524556665130394e554578465645564510
+  03:17:29.523  [right_in_ear        ]  DATA→buds   29  UNK_29          raw 040020020501003c0a31244237436e4f783946566c52665255355552564a6651554e5553565a4658303150524556665130394e554578465645564510
+  03:17:29.765  [right_in_ear        ]  CLOSE    5  CONN STATE      conn unknown(3)
+  03:17:29.766  [right_in_ear        ]  OPEN    9  WEAR+TOUCH      GESTURE_COMPLETE=complete(6)
+  03:17:29.807  [right_in_ear        ]  0x20    2  HANDSHAKE       raw cap token 00
+  03:17:29.807  [right_in_ear        ]  0x10    3  REALTIME CONTROL  raw cmd class=0x3 cmd=0xd
+  03:17:29.807  [right_in_ear        ]  0x30   10  DEVICE REG      ascii hwkNbQpEaXNjb25uZWN0CVV4RGVmYXVsdAA=
+  03:17:29.807  [right_in_ear        ]  0x1a   61  UNK_61          ascii 
+  03:17:29.807  [right_in_ear        ]  0x35  117  UNK_117         diag N0OgA==    
+$50VocQQHW01FRElBXQ===  
+  03:17:29.807  [right_in_ear        ]  0x69   98  UNK_98          raw 676c44623235755a574e305a57514c546d39304948427359586c70626d633d10031d2c3d04002002050100180a0d2434476e
+  03:17:29.807  [right_in_ear        ]  0x66   78  UNK_78          proto [?]
+  03:17:29.829  [right_in_ear        ]  PING    2  HANDSHAKE       handshake proto
+  03:17:33.566  [right_in_ear        ]  CLOSE    5  CONN STATE      conn unknown(5)
+  03:17:33.580  [right_in_ear        ]  PING    2  HANDSHAKE       handshake proto
+  03:17:33.585  [right_in_ear        ]  0x20    2  HANDSHAKE       raw cap token 00
+  03:17:33.585  [right_in_ear        ]  0x10    3  REALTIME CONTROL  raw cmd class=0x4 cmd=0xc
+  03:17:33.585  [right_in_ear        ]  0x18   10  DEVICE REG      ascii dAj2ygRtb25vL   
+	$YdquGw==
+  03:17:33.585  [right_in_ear        ]  0x47   86  UNK_86          proto [?]
+  03:17:33.585  [right_in_ear        ]  0x35  107  UNK_107         diag UgSW1tZWRpYXRlbHkgd2l0aCBFYXJjb24gKEZ1bGwgdm9sdW1l
+  03:17:33.585  [right_in_ear        ]  0x55   77  UNK_77          raw 676c44623235755a574e305a57514c546d39304946427359586c70626d634f554746316332566b4c314e30623342775a57513d10031d1c4c04002002050100180a0d24424578775977414341673d3d10031d1d4c040020020501002c0a212468776b4e62516444623235755a574e30435656345247566d
+  03:17:33.585  [right_in_ear        ]  0x59   88  UNK_88          raw 6441413d10031d1d4c04002002050100200a1524554b2b496d776444623235755a574e304f67413d10031d1e4c04002002050100200a15243530566f635151485730314652456c4258513d3d10031d1f4c04002002050100180a0d24747a67616a7741435731303d10031d1f4c040020020501
+  03:17:33.585  [right_in_ear        ]  0x00   20  UNK_20          ascii $cX6/4oYC
+  03:17:33.598  [right_in_ear        ]  OPEN    8  KEEPALIVE       raw 
+  03:17:33.598  [right_in_ear        ]  CLOSE   17  UNK_17          ascii 
+  03:17:38.945  [right_in_ear        ]  0x00   32  LOG EXTENDED    log ''
+  03:17:38.945  [right_in_ear        ]  0x51   48  UNK_48          proto [?]
+  ┌─ right_out_ear ───────────────────────────────────────────────────────────────────
+  03:17:52.163  [right_out_ear       ]  CLOSE    5  CONN STATE      conn unknown(3)
+  03:17:52.179  [right_out_ear       ]  OPEN    9  WEAR+TOUCH      GESTURE_COMPLETE=complete(6)
+  03:17:52.204  [right_out_ear       ]  0x20    2  HANDSHAKE       raw cap token 00
+  03:17:52.204  [right_out_ear       ]  0x10    3  REALTIME CONTROL  raw cmd class=0x9 cmd=0x4
+  03:17:52.204  [right_out_ear       ]  0x30   10  DEVICE REG      ascii hwkNbQpEaXNjb25uZWN0CVV4RGVmYXVsdAA=
+  03:17:52.204  [right_out_ear       ]  0x14   10  DEVICE REG      raw 624b525773773d3d10031dec9404002002050100140a09244e615a705667494110031df5
+  03:17:52.204  [right_out_ear       ]  0xd7  148  UNK_148         diag 
+  03:17:52.228  [right_out_ear       ]  PING    2  HANDSHAKE       handshake proto
+  03:18:02.510  [right_out_ear       ]  0x61   53  UNK_53          proto [?]
+  └─────────────────────────────────────────────────────────────────────────────────
+  03:18:10.103  [                    ]  0x66   32  LOG EXTENDED    log ' fb ff 00 00 00 7e; tx level secondary-m'
+  03:18:10.103  [                    ]  0x63   99  LOG EXTENDED B  log '0 00 00 00; TWS tx level: 13.7 dBm; hfp '
+  ┌─ right_in_case ───────────────────────────────────────────────────────────────────
+  03:18:16.896  [right_in_case       ]  DATA→buds    3  REALTIME CONTROL  battery bud=100% out_case case=27%
+  03:18:16.924  [right_in_case       ]  STATE_SNAPSHOT    6  CAPABILITY FLAGS  snap proto
+  03:18:16.932  [right_in_case       ]  0x24   77  UNK_77          proto [?]
+  03:18:16.932  [right_in_case       ]  0x53   90  UNK_90          raw 6c644552765a6d5a6c5a46426864584e6c10031d9ef504002002050100500a45245959677751676c44623235755a574e305a575152513239755a6d6c796257566b4c55396d5a6b686c5957515251
+  03:18:16.932  [right_in_case       ]  0x32   57  UNK_57          proto [?]
+  03:18:16.932  [right_in_case       ]  CLOSE    3  REALTIME CONTROL  INIT/CASE
+  03:18:17.053  [right_in_case       ]  DATA→buds    3  REALTIME CONTROL  battery bud=100% in_case case=27%
+  03:18:17.083  [right_in_case       ]  STATE_SNAPSHOT    6  CAPABILITY FLAGS  snap proto
+  ┌─ both_in_ears ────────────────────────────────────────────────────────────────────
+  03:18:40.604  [both_in_ears        ]  DATA→buds    8  KEEPALIVE       pong val=36
+  03:18:40.608  [both_in_ears        ]  DATA→buds    2  HANDSHAKE       empty proto
+  03:18:40.615  [both_in_ears        ]  DATA→buds    3  REALTIME CONTROL  raw cmd class=0x6 cmd=0x4
+  03:18:40.863  [both_in_ears        ]  CLOSE    2  HANDSHAKE       raw cap token 
+  03:18:40.863  [both_in_ears        ]  PING    3  REALTIME CONTROL  empty
+  03:18:40.863  [both_in_ears        ]  DATA→phone   12  UNK_12          ascii 
+  03:18:40.863  [both_in_ears        ]  CLOSE    4  VERSION/AUDIO   AUDIO STREAM 0B
+  03:18:40.863  [both_in_ears        ]  RESPONSE    4  VERSION/AUDIO   AUDIO STREAM 0B
+  03:18:40.863  [both_in_ears        ]  CLOSE   17  UNK_17          ascii 
+  03:18:40.863  [both_in_ears        ]  CLOSE   19  UNK_19          ascii 
+  03:18:40.863  [both_in_ears        ]  CLOSE   21  UNK_21          ascii 
+  03:18:40.863  [both_in_ears        ]  OPEN_ACK    5  CONN STATE      conn IDLE
+  03:18:40.863  [both_in_ears        ]  OPEN_ACK    5  CONN STATE      conn CONNECTED
+  03:18:40.931  [both_in_ears        ]  DATA→phone   10  DEVICE REG      device_id=3df7c2e
+  03:18:40.933  [both_in_ears        ]  CLOSE    3  REALTIME CONTROL  TEARDOWN
+  03:18:40.935  [both_in_ears        ]  PING    2  HANDSHAKE       handshake proto
+  03:18:40.943  [both_in_ears        ]  DATA→buds    2  HANDSHAKE       phone init fw=0.0.1
+  03:18:40.943  [both_in_ears        ]  OPEN_ACK    4  VERSION/AUDIO   AUDIO STREAM 15B
+  03:18:40.943  [both_in_ears        ]  OPEN_ACK    4  VERSION/AUDIO   AUDIO STREAM 75B
+  03:18:40.947  [both_in_ears        ]  CLOSE    5  CONN STATE      conn unknown(3)
+  03:18:40.958  [both_in_ears        ]  OPEN    7  AUDIO CONFIG    audio cfg sr=16000Hz bit=24 codec=2
+  03:18:41.005  [both_in_ears        ]  DATA→buds    3  REALTIME CONTROL  raw cmd class=0x6 cmd=0x4
+  03:18:41.071  [both_in_ears        ]  OPEN_ACK    5  CONN STATE      conn IDLE
+  03:18:41.124  [both_in_ears        ]  OPEN_ACK    4  VERSION/AUDIO   AUDIO STREAM 15B
+  03:18:41.127  [both_in_ears        ]  OPEN_ACK    5  CONN STATE      conn CONNECTED
+  03:18:41.194  [both_in_ears        ]  OPEN_ACK    4  VERSION/AUDIO   AUDIO STREAM 75B
+  03:18:41.197  [both_in_ears        ]  RESPONSE    2  HANDSHAKE       model: buds A
+  03:18:41.213  [both_in_ears        ]  OPEN_ACK   11  STATUS STREAM   seq=200Q
+  03:18:41.258  [both_in_ears        ]  CLOSE    5  CONN STATE      conn STREAMING
+  03:18:41.320  [both_in_ears        ]  OPEN_ACK    6  CAPABILITY FLAGS  caps channels=11 rev=1
+  03:18:41.379  [both_in_ears        ]  OPEN    8  KEEPALIVE       raw 
+  03:18:41.406  [both_in_ears        ]  PING    2  HANDSHAKE       handshake proto
+  03:18:41.406  [both_in_ears        ]  CLOSE   17  UNK_17          ascii 
+  03:18:42.291  [both_in_ears        ]  STATE_SNAPSHOT    2  HANDSHAKE       snap proto
+  03:18:42.291  [both_in_ears        ]  STATE_SNAPSHOT    5  CONN STATE      snap proto
+  03:18:42.291  [both_in_ears        ]  STATE_SNAPSHOT    6  CAPABILITY FLAGS  snap proto
+  03:18:42.298  [both_in_ears        ]  STATE_SNAPSHOT    8  KEEPALIVE       snap f3=8
+  03:18:42.298  [both_in_ears        ]  STATE_SNAPSHOT    4  VERSION/AUDIO   snap raw 
+  03:18:42.371  [both_in_ears        ]  STATE_SNAPSHOT    8  KEEPALIVE       snap f3=1
+  03:18:42.371  [both_in_ears        ]  STATE_SNAPSHOT    8  KEEPALIVE       snap f3=3
+  03:18:42.371  [both_in_ears        ]  STATE_SNAPSHOT    8  KEEPALIVE       snap f3=5
+  03:18:42.371  [both_in_ears        ]  STATE_SNAPSHOT    8  KEEPALIVE       snap f3=7
+  03:18:42.371  [both_in_ears        ]  STATE_SNAPSHOT    8  KEEPALIVE       snap f3=8
+  03:18:42.371  [both_in_ears        ]  STATE_SNAPSHOT    8  KEEPALIVE       snap f3=10
+  03:18:42.371  [both_in_ears        ]  STATE_SNAPSHOT    8  KEEPALIVE       snap f3=11
+  03:18:42.371  [both_in_ears        ]  STATE_SNAPSHOT    8  KEEPALIVE       snap f3=12
+  03:18:42.371  [both_in_ears        ]  STATE_SNAPSHOT    8  KEEPALIVE       snap f3=13
+  03:18:42.371  [both_in_ears        ]  STATE_SNAPSHOT    8  KEEPALIVE       snap f3=14
+  03:18:42.371  [both_in_ears        ]  STATE_SNAPSHOT    7  AUDIO CONFIG    snap proto
+  03:18:42.372  [both_in_ears        ]  STATE_SNAPSHOT   10  DEVICE REG      snap unknown_8=1
+  03:18:42.372  [both_in_ears        ]  STATE_SNAPSHOT    5  CONN STATE      snap proto
+  03:18:42.402  [both_in_ears        ]  STATE_SNAPSHOT   10  DEVICE REG      snap IN_EAR_DETECT=on
+  03:18:42.402  [both_in_ears        ]  STATE_SNAPSHOT   10  DEVICE REG      snap unknown_3=0
+  03:18:42.402  [both_in_ears        ]  STATE_SNAPSHOT   10  DEVICE REG      snap ADAPTIVE_SOUND=off
+  03:18:42.402  [both_in_ears        ]  STATE_SNAPSHOT   10  DEVICE REG      snap setting_0x38=1
+  03:18:42.402  [both_in_ears        ]  STATE_SNAPSHOT   10  DEVICE REG      snap unknown_8=1
+  03:18:42.402  [both_in_ears        ]  STATE_SNAPSHOT   10  DEVICE REG      snap setting_0x50=0
+  03:18:42.402  [both_in_ears        ]  STATE_SNAPSHOT   10  DEVICE REG      snap TOUCH_CONTROLS=on
+  03:18:42.402  [both_in_ears        ]  STATE_SNAPSHOT   10  DEVICE REG      snap setting_0x60=0
+  03:18:42.402  [both_in_ears        ]  STATE_SNAPSHOT   10  DEVICE REG      snap VOLUME_EQ=off
+  03:18:42.402  [both_in_ears        ]  STATE_SNAPSHOT   10  DEVICE REG      snap BASS_EQ_LEVEL=6
+  03:18:45.541  [both_in_ears        ]  DATA→buds    3  REALTIME CONTROL  raw cmd class=0x6 cmd=0x4
+  03:18:45.668  [both_in_ears        ]  STATE_SNAPSHOT    6  CAPABILITY FLAGS  snap proto
+  03:18:46.048  [both_in_ears        ]  DATA→buds    3  REALTIME CONTROL  raw cmd class=0x6 cmd=0x4
+  03:18:46.110  [both_in_ears        ]  STATE_SNAPSHOT    6  CAPABILITY FLAGS  snap proto
+  03:18:46.115  [both_in_ears        ]  0x74  111  UNK_111         diag l 0; )g   T
+I$ucY6Qw9TdWJQYWlyV2l0aEJhdHQHa
+  03:18:46.115  [both_in_ears        ]  0x30   52  UNK_52          proto [?]
+  03:18:49.821  [both_in_ears        ]  CLOSE    5  CONN STATE      conn unknown(6)
+  03:18:49.843  [both_in_ears        ]  0x4f   85  UNK_85          proto [?]
+  03:18:49.843  [both_in_ears        ]  0x3d   16  UNK_16          proto [?]
+  03:18:49.843  [both_in_ears        ]  0x32   53  UNK_53          raw 574e30435656345247566d595856736442733d10031db77605002001050100200a1524554b2b496d776444623235755a574e304867413d10031db77605002001050100200a15243530566f635151485730314652456c4258513d
+  ┌─ tap_single_L ────────────────────────────────────────────────────────────────────
+  03:19:17.445  [tap_single_L        ]  OPEN    9  WEAR+TOUCH      EAR_STATE=LEFT_IN
+  03:19:17.447  [tap_single_L        ]  OPEN    2  HANDSHAKE       cap resp: 16kHz/24bit
+  03:19:17.456  [tap_single_L        ]  OPEN    4  VERSION/AUDIO   AUDIO STREAM 106B
+  03:19:17.739  [tap_single_L        ]  OPEN    9  WEAR+TOUCH      TOUCH_EVENT_L (event)
+  03:19:17.740  [tap_single_L        ]  OPEN    3  REALTIME CONTROL  TAP
+  03:19:17.741  [tap_single_L        ]  DATA→phone   11  STATUS STREAM   seq=14 wear=BOTH_OUT tick=384657us batt_adc=127 conn=0x3
+  03:19:17.852  [tap_single_L        ]  OPEN    9  WEAR+TOUCH      GESTURE_COMPLETE=complete(6) | type_14 (event)
+  └─────────────────────────────────────────────────────────────────────────────────
+  03:19:29.766  [                    ]  0x66   90  UNK_90          raw 76596d467358326868626d52735a58495341413d3d10031dc61106002002050100340a292437352f774a67356f62334e304c584e6c593239755a47467965522b46647349692f4a35427651467210031dcb1106002002050100400a35242f685a384e5235686348426661574a79644639795958646664576c
+  ┌─ tap_single_R ────────────────────────────────────────────────────────────────────
+  03:19:32.398  [tap_single_R        ]  OPEN    9  WEAR+TOUCH      EAR_STATE=LEFT_IN
+  03:19:32.399  [tap_single_R        ]  OPEN    2  HANDSHAKE       cap resp: 16kHz/24bit
+  03:19:32.406  [tap_single_R        ]  OPEN    4  VERSION/AUDIO   AUDIO STREAM 106B
+  03:19:32.613  [tap_single_R        ]  OPEN    9  WEAR+TOUCH      TOUCH_EVENT_L (event)
+  03:19:32.618  [tap_single_R        ]  OPEN    3  REALTIME CONTROL  TAP
+  03:19:32.622  [tap_single_R        ]  DATA→phone   11  STATUS STREAM   seq=40 wear=BOTH_OUT tick=399702us batt_adc=127 conn=0x3
+  03:19:32.859  [tap_single_R        ]  OPEN    9  WEAR+TOUCH      GESTURE_COMPLETE=complete(6) | type_14 (event)
+  03:19:35.210  [tap_single_R        ]  0x57  108  UNK_108         diag 2xvYmFsX2hhbmRsZXISAA=='   @
+5$/hZ8NR5hcHB
+  ┌─ tap_double_L ────────────────────────────────────────────────────────────────────
+  03:19:49.321  [tap_double_L        ]  OPEN    9  WEAR+TOUCH      EAR_STATE=LEFT_IN
+  03:19:49.325  [tap_double_L        ]  OPEN    2  HANDSHAKE       cap resp: 16kHz/24bit
+  03:19:49.352  [tap_double_L        ]  OPEN    4  VERSION/AUDIO   AUDIO STREAM 106B
+  03:19:49.423  [tap_double_L        ]  OPEN    9  WEAR+TOUCH      TOUCH_EVENT_L (event)
+  03:19:49.426  [tap_double_L        ]  OPEN    3  REALTIME CONTROL  TAP
+  03:19:49.432  [tap_double_L        ]  DATA→phone   11  STATUS STREAM   seq=48 wear=BOTH_OUT tick=416535us batt_adc=127 conn=0x3
+  03:19:49.923  [tap_double_L        ]  OPEN    9  WEAR+TOUCH      GESTURE_COMPLETE=complete(6) | type_16 (event)
+  03:19:49.953  [tap_double_L        ]  0x56   72  UNK_72          raw 4e3064584a6c52585a6c626e51554e4445344d546b304c55787659793144623231774c544a555958413d10031dac6106002001050100480a3d24342b376136684a495957356b624756485a584e3064584a6c52585a6c626e
+  └─────────────────────────────────────────────────────────────────────────────────
+  03:19:58.772  [                    ]  0x00   32  LOG EXTENDED    log ''
+  03:19:58.772  [                    ]  0x74  120  UNK_120         diag evel primary-mobile: 13.7 dBm; rx gain level: 6; t
+  03:19:58.772  [                    ]  0x33   46  UNK_46          raw 64426d3b20686670206c6f737320302c20746f74616c20303b2010031d4b8406
+  ┌─ tap_double_R ────────────────────────────────────────────────────────────────────
+  03:20:06.977  [tap_double_R        ]  OPEN    9  WEAR+TOUCH      EAR_STATE=LEFT_IN
+  03:20:06.978  [tap_double_R        ]  OPEN    2  HANDSHAKE       cap resp: 16kHz/24bit
+  03:20:06.979  [tap_double_R        ]  OPEN    9  WEAR+TOUCH      TOUCH_EVENT_L (event)
+  03:20:07.017  [tap_double_R        ]  OPEN    3  REALTIME CONTROL  TAP
+  03:20:07.055  [tap_double_R        ]  DATA→phone   11  STATUS STREAM   seq=48 wear=BOTH_OUT tick=434086us batt_adc=127 conn=0x3
+  03:20:07.539  [tap_double_R        ]  OPEN    9  WEAR+TOUCH      GESTURE_COMPLETE=complete(6) | type_16 (event)
+  └─────────────────────────────────────────────────────────────────────────────────
+  03:20:14.734  [                    ]  0x56   69  UNK_69          proto [?]
+  03:20:14.734  [                    ]  0x06    0  UNK_0           raw 0501
+  03:20:14.734  [                    ]  0x00   60  UNK_60          ascii $B7CnOx9FVlRfRU5URVJfQUNUSVZFX01PREVfQ09NUExFVEVE
+  ┌─ tap_triple_L ────────────────────────────────────────────────────────────────────
+  03:20:22.950  [tap_triple_L        ]  OPEN    9  WEAR+TOUCH      EAR_STATE=LEFT_IN
+  03:20:22.952  [tap_triple_L        ]  OPEN    2  HANDSHAKE       cap resp: 16kHz/24bit
+  03:20:22.960  [tap_triple_L        ]  OPEN    4  VERSION/AUDIO   version proto
+  03:20:23.009  [tap_triple_L        ]  OPEN    9  WEAR+TOUCH      TOUCH_EVENT_L (event)
+  03:20:23.010  [tap_triple_L        ]  OPEN    3  REALTIME CONTROL  TAP
+  03:20:23.015  [tap_triple_L        ]  DATA→phone   11  STATUS STREAM   seq=50 wear=BOTH_OUT tick=450142us batt_adc=127 conn=0x3
+  03:20:23.353  [tap_triple_L        ]  OPEN    9  WEAR+TOUCH      GESTURE_COMPLETE=complete(6) | type_15 (event)
+  03:20:23.418  [tap_triple_L        ]  OPEN    9  WEAR+TOUCH      EAR_STATE=LEFT_IN
+  03:20:23.419  [tap_triple_L        ]  OPEN    2  HANDSHAKE       cap resp: 16kHz/24bit
+  03:20:23.424  [tap_triple_L        ]  OPEN    4  VERSION/AUDIO   version proto
+  03:20:23.486  [tap_triple_L        ]  OPEN    9  WEAR+TOUCH      TOUCH_EVENT_L (event)
+  03:20:23.487  [tap_triple_L        ]  OPEN    3  REALTIME CONTROL  TAP
+  03:20:23.488  [tap_triple_L        ]  DATA→phone   11  STATUS STREAM   seq=52 wear=BOTH_OUT tick=450611us batt_adc=127 conn=0x3
+  03:20:23.760  [tap_triple_L        ]  OPEN    9  WEAR+TOUCH      GESTURE_COMPLETE=complete(6) | type_14 (event)
+  03:20:27.107  [tap_triple_L        ]  0x20  102  UNK_102         diag 00 00 00 7e; tx level primary-mo
+  03:20:27.107  [tap_triple_L        ]  0x62  105  UNK_105         diag : 13.7 dBm; rx gain level: 6; tws chl map: a2 95 0
+  └─────────────────────────────────────────────────────────────────────────────────
+  03:20:36.676  [                    ]  0x67   24  UNK_24          ascii 
+  ┌─ tap_triple_R ────────────────────────────────────────────────────────────────────
+  03:20:43.698  [tap_triple_R        ]  OPEN    9  WEAR+TOUCH      EAR_STATE=LEFT_IN
+  03:20:43.699  [tap_triple_R        ]  OPEN    2  HANDSHAKE       cap resp: 16kHz/24bit
+  03:20:43.704  [tap_triple_R        ]  DATA→buds   29  UNK_29          raw 07002001050100240a19243530566f63594145435674445156425556564a4658513d3d10031dfc3307002001050100180a0d24
+  03:20:43.704  [tap_triple_R        ]  0x35  107  UNK_107         raw 56485a584e3064584a6c52585a6c626e51564e4463784f446b304c564a6c6253315464474679644331496232786b10031df43307002001050100140a09246b77494e4f673d3d10
+  03:20:43.713  [tap_triple_R        ]  OPEN    4  VERSION/AUDIO   AUDIO STREAM 106B
+  03:20:43.766  [tap_triple_R        ]  OPEN    9  WEAR+TOUCH      TOUCH_EVENT_L (event)
+  03:20:43.769  [tap_triple_R        ]  OPEN    3  REALTIME CONTROL  TAP
+  03:20:43.774  [tap_triple_R        ]  DATA→phone   11  STATUS STREAM   seq=58 wear=BOTH_OUT tick=470939us batt_adc=126 conn=0x3
+  03:20:44.072  [tap_triple_R        ]  OPEN    9  WEAR+TOUCH      GESTURE_COMPLETE=complete(6) | type_15 (event)
+  03:20:44.139  [tap_triple_R        ]  OPEN    9  WEAR+TOUCH      EAR_STATE=LEFT_IN
+  03:20:44.141  [tap_triple_R        ]  OPEN    2  HANDSHAKE       cap resp: 16kHz/24bit
+  03:20:44.147  [tap_triple_R        ]  OPEN    4  VERSION/AUDIO   AUDIO STREAM 106B
+  03:20:44.198  [tap_triple_R        ]  OPEN    9  WEAR+TOUCH      TOUCH_EVENT_L (event)
+  03:20:44.206  [tap_triple_R        ]  OPEN    3  REALTIME CONTROL  TAP
+  03:20:44.206  [tap_triple_R        ]  DATA→phone   11  STATUS STREAM   seq=64 wear=BOTH_OUT tick=471375us batt_adc=126 conn=0x3
+  03:20:44.447  [tap_triple_R        ]  OPEN    9  WEAR+TOUCH      GESTURE_COMPLETE=complete(6) | type_14 (event)
+  03:20:46.709  [tap_triple_R        ]  0x34   53  UNK_53          proto [?]
+  03:20:46.709  [tap_triple_R        ]  0x66  102  UNK_102         diag f f7 00 00 00 7e; tx level secondary-mobile: 13.7 
+  03:20:46.709  [tap_triple_R        ]  0x74   97  UNK_97          proto [?]
+  └─────────────────────────────────────────────────────────────────────────────────
+  03:20:56.355  [                    ]  0x35   32  LOG EXTENDED    log ' 18 45 55 00 00 10 28; TWS tx level: 13.'
+  03:20:56.355  [                    ]  0x66  102  UNK_102         diag 0 00 00 7e; tx level secondary-mobile: 13.7 dBm;
+  03:20:56.355  [                    ]  0x20  114  AUDIO GAIN DIAG  diag gain level: 6; tws chl map: a2 9
+  03:21:05.074  [                    ]  0x38   10  DEVICE REG      ascii 75/wJhFwcmltYXJ5LXNlY29uZGFyeZmZesIN
+  ┌─ long_press_L ────────────────────────────────────────────────────────────────────
+  03:21:07.416  [long_press_L        ]  OPEN    9  WEAR+TOUCH      EAR_STATE=LEFT_IN
+  03:21:07.417  [long_press_L        ]  OPEN    2  HANDSHAKE       cap resp: 16kHz/24bit
+  03:21:07.435  [long_press_L        ]  OPEN    4  VERSION/AUDIO   AUDIO STREAM 106B
+  03:21:08.104  [long_press_L        ]  OPEN    9  WEAR+TOUCH      type_1f (event)
+  03:21:08.105  [long_press_L        ]  OPEN    4  VERSION/AUDIO   AUDIO STREAM 106B
+  03:21:08.261  [long_press_L        ]  OPEN    8  KEEPALIVE       raw 
+  03:21:08.277  [long_press_L        ]  OPEN    4  VERSION/AUDIO   AUDIO STREAM 106B
+  03:21:13.401  [long_press_L        ]  OPEN    9  WEAR+TOUCH      TOUCH_EVENT_L (event)
+  03:21:13.404  [long_press_L        ]  OPEN    3  REALTIME CONTROL  LONG_PRESS
+  03:21:13.416  [long_press_L        ]  DATA→phone   11  STATUS STREAM   seq=808 wear=BOTH_OUT tick=500610us batt_adc=125 conn=0x3
+  ┌─ long_press_R ────────────────────────────────────────────────────────────────────
+  03:21:32.418  [long_press_R        ]  OPEN    9  WEAR+TOUCH      EAR_STATE=LEFT_IN
+  03:21:32.419  [long_press_R        ]  OPEN    2  HANDSHAKE       cap resp: 16kHz/24bit
+  03:21:32.432  [long_press_R        ]  OPEN    4  VERSION/AUDIO   AUDIO STREAM 106B
+  03:21:33.104  [long_press_R        ]  OPEN    9  WEAR+TOUCH      type_1f (event)
+  03:21:33.117  [long_press_R        ]  OPEN    4  VERSION/AUDIO   AUDIO STREAM 106B
+  03:21:33.139  [long_press_R        ]  0x48   10  DEVICE REG      ascii 4+7a6hJIYW5kbGVHZXN0dXJlRXZlbnQUNTIx
+  03:21:33.139  [long_press_R        ]  OPEN    5  CONN STATE      raw 
+  03:21:33.142  [long_press_R        ]  OPEN    4  VERSION/AUDIO   AUDIO STREAM 106B
+  03:21:33.169  [long_press_R        ]  OPEN    8  KEEPALIVE       raw 
+  03:21:33.170  [long_press_R        ]  OPEN    4  VERSION/AUDIO   AUDIO STREAM 106B
+  03:21:37.960  [long_press_R        ]  CLOSE    3  REALTIME CONTROL  TEARDOWN
+  03:21:37.973  [long_press_R        ]  OPEN    4  VERSION/AUDIO   AUDIO STREAM 106B
+  03:21:38.011  [long_press_R        ]  OPEN_ACK    5  CONN STATE      conn IDLE
+  03:21:38.019  [long_press_R        ]  OPEN    4  VERSION/AUDIO   AUDIO STREAM 106B
+  03:21:38.030  [long_press_R        ]  OPEN_ACK    5  CONN STATE      conn CONNECTED
+  03:21:38.042  [long_press_R        ]  OPEN_ACK    4  VERSION/AUDIO   AUDIO STREAM 15B
+  03:21:38.049  [long_press_R        ]  OPEN    4  VERSION/AUDIO   AUDIO STREAM 106B
+  03:21:38.075  [long_press_R        ]  OPEN_ACK    4  VERSION/AUDIO   AUDIO STREAM 81B
+  03:21:38.083  [long_press_R        ]  OPEN    4  VERSION/AUDIO   AUDIO STREAM 106B
+  03:21:39.900  [long_press_R        ]  OPEN    9  WEAR+TOUCH      TOUCH_EVENT_L (event)
+  03:21:39.905  [long_press_R        ]  OPEN    3  REALTIME CONTROL  LONG_PRESS
+  03:21:39.918  [long_press_R        ]  DATA→phone   11  STATUS STREAM   seq=1740 wear=BOTH_OUT tick=527132us batt_adc=125 conn=0x3
+  └─────────────────────────────────────────────────────────────────────────────────
+  03:21:47.429  [                    ]  CLOSE    3  REALTIME CONTROL  TEARDOWN
+  03:21:47.482  [                    ]  OPEN_ACK    5  CONN STATE      conn IDLE
+  03:21:47.550  [                    ]  OPEN_ACK    4  VERSION/AUDIO   AUDIO STREAM 15B
+  03:21:47.553  [                    ]  OPEN_ACK    5  CONN STATE      conn CONNECTED
+  03:21:47.591  [                    ]  OPEN_ACK    4  VERSION/AUDIO   AUDIO STREAM 81B
+  03:22:01.648  [                    ]  0x00   32  LOG EXTENDED    log ''
+  03:22:01.648  [                    ]  0x6c  101  UNK_101         raw 6c3a20363b207477732063686c206d61703a2061322039352030352031382034352035352030302030302031302032383b20545753207478206c6576656c3a2031332e372064426d3b20686670206c6f737320302c20746f74616c20303b2010031dce6408
+  03:22:11.146  [                    ]  0x32   56  UNK_56          ascii TWS tx level: 13.7 dBm; hfp loss
+  ┌─ adaptive_on ─────────────────────────────────────────────────────────────────────
+  03:22:18.007  [adaptive_on         ]  STATE_SNAPSHOT    8  KEEPALIVE       snap f3=5
+  03:22:18.007  [adaptive_on         ]  STATE_SNAPSHOT    9  WEAR+TOUCH      snap ADAPTIVE_SOUND=on
+  03:22:18.140  [adaptive_on         ]  STATE_SNAPSHOT   10  DEVICE REG      snap ADAPTIVE_SOUND=on
+  └─────────────────────────────────────────────────────────────────────────────────
+  03:22:32.922  [                    ]  0x20  108  UNK_108         diag el secondary-mobile: 13.7 dBm; rx gain level: 5; t
+  ┌─ adaptive_off ────────────────────────────────────────────────────────────────────
+  03:22:39.451  [adaptive_off        ]  STATE_SNAPSHOT    8  KEEPALIVE       snap f3=5
+  03:22:39.451  [adaptive_off        ]  0x1a    2  HANDSHAKE       raw cap token 
+  03:22:39.499  [adaptive_off        ]  STATE_SNAPSHOT   10  DEVICE REG      snap ADAPTIVE_SOUND=off
+  03:22:44.325  [adaptive_off        ]  0x3d   16  UNK_16          raw 8e0b09002001050100380a2d2437352f774a684677636d6c7459584a35
+  ┌─ vol_eq_on ───────────────────────────────────────────────────────────────────────
+  03:22:59.754  [vol_eq_on           ]  STATE_SNAPSHOT    9  WEAR+TOUCH      snap VOLUME_EQ=on
+  03:22:59.872  [vol_eq_on           ]  STATE_SNAPSHOT   10  DEVICE REG      snap VOLUME_EQ=on
+  03:23:05.380  [vol_eq_on           ]  0x66   82  UNK_82          proto [?]
+  03:23:05.380  [vol_eq_on           ]  0x4f  120  UNK_120         diag VlRfRU5URVJfQUNUSVZFX01PREVfQ09NUExFVEVE{\	  
+  └─────────────────────────────────────────────────────────────────────────────────
+  03:23:16.179  [                    ]  0x34   65  UNK_65          proto [?]
+  03:23:16.179  [                    ]  0x45   16  UNK_16          proto [?]
+  03:23:16.179  [                    ]  0x79   66  UNK_66          proto [?]
+  ┌─ vol_eq_off ──────────────────────────────────────────────────────────────────────
+  03:23:21.049  [vol_eq_off          ]  STATE_SNAPSHOT    8  KEEPALIVE       snap f3=13
+  03:23:21.049  [vol_eq_off          ]  STATE_SNAPSHOT    9  WEAR+TOUCH      snap VOLUME_EQ=off
+  03:23:21.152  [vol_eq_off          ]  STATE_SNAPSHOT   10  DEVICE REG      snap VOLUME_EQ=off
+  ┌─ bass_eq_1 ───────────────────────────────────────────────────────────────────────
+  03:23:47.109  [bass_eq_1           ]  STATE_SNAPSHOT    8  KEEPALIVE       snap raw 00
+  03:23:47.109  [bass_eq_1           ]  STATE_SNAPSHOT    9  WEAR+TOUCH      snap BASS_EQ_LEVEL=1
+  03:23:47.146  [bass_eq_1           ]  OPEN_ACK   24  UNK_24          raw 0e
+  03:23:47.171  [bass_eq_1           ]  STATE_SNAPSHOT   10  DEVICE REG      snap BASS_EQ_LEVEL=1
+  ┌─ bass_eq_2 ───────────────────────────────────────────────────────────────────────
+  03:24:07.380  [bass_eq_2           ]  STATE_SNAPSHOT    8  KEEPALIVE       snap f3=14
+  03:24:07.380  [bass_eq_2           ]  STATE_SNAPSHOT    9  WEAR+TOUCH      snap BASS_EQ_LEVEL=2
+  03:24:07.437  [bass_eq_2           ]  STATE_SNAPSHOT   10  DEVICE REG      snap BASS_EQ_LEVEL=2
+  ┌─ bass_eq_3 ───────────────────────────────────────────────────────────────────────
+  03:24:25.423  [bass_eq_3           ]  STATE_SNAPSHOT    8  KEEPALIVE       snap f3=14
+  03:24:25.423  [bass_eq_3           ]  STATE_SNAPSHOT    9  WEAR+TOUCH      snap BASS_EQ_LEVEL=3
+  03:24:25.931  [bass_eq_3           ]  STATE_SNAPSHOT   10  DEVICE REG      snap BASS_EQ_LEVEL=3
+  03:24:28.955  [bass_eq_3           ]  OPEN    0  UNK_0           proto [?]
+  03:24:28.955  [bass_eq_3           ]  0x20   16  UNK_16          raw 97a30a002002050100540a492456684543744164545a574e4a5a47786c
+  03:24:28.955  [bass_eq_3           ]  0x45   71  UNK_71          raw 64464a766247565464326c30593268476332305261314a7a63326c4e623235495a57467964474a6c595853455532566a53513d3d10031d9ca30a002002050100340a29
+  03:24:28.955  [bass_eq_3           ]  0x24   55  UNK_55          raw 774a67356f62334e304c584e6c593239755a47467965544d7a6a4d4b78687a56447651465610031da0a30a00200205
+  ┌─ bass_eq_4 ───────────────────────────────────────────────────────────────────────
+  03:24:42.070  [bass_eq_4           ]  STATE_SNAPSHOT    8  KEEPALIVE       snap f3=14
+  03:24:42.070  [bass_eq_4           ]  STATE_SNAPSHOT    9  WEAR+TOUCH      snap BASS_EQ_LEVEL=4
+  03:24:42.305  [bass_eq_4           ]  STATE_SNAPSHOT   10  DEVICE REG      snap BASS_EQ_LEVEL=4
+  ┌─ bass_eq_5 ───────────────────────────────────────────────────────────────────────
+  03:24:58.288  [bass_eq_5           ]  STATE_SNAPSHOT    8  KEEPALIVE       snap f3=14
+  03:24:58.288  [bass_eq_5           ]  STATE_SNAPSHOT    9  WEAR+TOUCH      snap BASS_EQ_LEVEL=5
+  03:24:58.442  [bass_eq_5           ]  STATE_SNAPSHOT   10  DEVICE REG      snap BASS_EQ_LEVEL=5
+  03:24:58.455  [bass_eq_5           ]  DATA→buds   29  UNK_29          raw 0b002001050100140a092447534f397367413d10031d1718
+  03:24:58.516  [bass_eq_5           ]  STATE_SNAPSHOT   10  DEVICE REG      snap BASS_EQ_LEVEL=5
+  └─────────────────────────────────────────────────────────────────────────────────
+  03:25:09.347  [                    ]  0x20    2  HANDSHAKE       raw cap token 00
+  03:25:09.347  [                    ]  0x40   10  DEVICE REG      ascii /hZ8NR5hcHBfaWJydF9yYXdfdWlfZ2xvYmFs
+  ┌─ bass_eq_6 ───────────────────────────────────────────────────────────────────────
+  03:25:18.608  [bass_eq_6           ]  STATE_SNAPSHOT    8  KEEPALIVE       snap f3=14
+  03:25:18.608  [bass_eq_6           ]  STATE_SNAPSHOT    9  WEAR+TOUCH      snap BASS_EQ_LEVEL=6
+  03:25:18.687  [bass_eq_6           ]  STATE_SNAPSHOT   10  DEVICE REG      snap BASS_EQ_LEVEL=6
+  └─────────────────────────────────────────────────────────────────────────────────
+  03:25:32.120  [                    ]  STATE_SNAPSHOT    9  WEAR+TOUCH      snap IN_EAR_DETECT=off
+  03:25:32.194  [                    ]  CLOSE    5  CONN STATE      conn CONNECTED
+  03:25:32.197  [                    ]  STATE_SNAPSHOT    8  KEEPALIVE       snap f3=1
+  03:25:32.266  [                    ]  STATE_SNAPSHOT   10  DEVICE REG      snap IN_EAR_DETECT=off
+  03:25:37.784  [                    ]  0x38   78  UNK_78          proto [?]
+  03:25:37.784  [                    ]  0x0a   49  UNK_49          raw 37436e4f783946566c52665255355552564a6651554e5553565a4658303150524556665130394e554578465645564510031d84b00b002002050100400a35242f685a
+  ┌─ in_ear_on ───────────────────────────────────────────────────────────────────────
+  03:25:45.876  [in_ear_on           ]  STATE_SNAPSHOT    8  KEEPALIVE       snap f3=1
+  03:25:45.876  [in_ear_on           ]  STATE_SNAPSHOT    9  WEAR+TOUCH      snap IN_EAR_DETECT=on
+  03:25:45.953  [in_ear_on           ]  CLOSE    5  CONN STATE      conn unknown(6)
+  03:25:45.971  [in_ear_on           ]  STATE_SNAPSHOT   10  DEVICE REG      snap IN_EAR_DETECT=on
+  03:25:46.209  [in_ear_on           ]  0x7a   69  UNK_69          raw 6b45394d54516754576c7a597a6f6710031dccd20b002001050100340a2924485763486878647a6247566c6346396b64584a6864476c76626c396a623356756444303149413d3d10031dcdd20b0020010501
+  03:25:46.209  [in_ear_on           ]  0x3a   32  LOG EXTENDED    raw 2e372064426d3b20686670206c6f737320302c20746f74616c20303b2010031dadd10b0020020501001c0a11244d506a386877
+  03:25:46.209  [in_ear_on           ]  0x00   56  UNK_56          ascii $HWcHhxpyYWRpb190eF9zdWNjc3NfY291bnQ9MjA1IA==
+  03:25:46.209  [in_ear_on           ]  0x56  109  UNK_109         raw 787a5a513d3d10031dbdd10b002002050100140a092456574c415277413d10031dc0d10b002002050100480a3d2437563437464367314d444167524530785054673149444a45534445394e7a59674d6b52494d7a307a4d
+  ┌─ in_ear_off ──────────────────────────────────────────────────────────────────────
+  03:26:01.955  [in_ear_off          ]  STATE_SNAPSHOT    8  KEEPALIVE       snap f3=1
+  03:26:01.955  [in_ear_off          ]  STATE_SNAPSHOT    9  WEAR+TOUCH      snap IN_EAR_DETECT=off
+  03:26:02.049  [in_ear_off          ]  CLOSE    5  CONN STATE      conn CONNECTED
+  03:26:02.118  [in_ear_off          ]  STATE_SNAPSHOT   10  DEVICE REG      snap IN_EAR_DETECT=off
+  └─────────────────────────────────────────────────────────────────────────────────
+  03:26:18.549  [                    ]  STATE_SNAPSHOT    8  KEEPALIVE       snap raw 00
+  03:26:18.549  [                    ]  STATE_SNAPSHOT    9  WEAR+TOUCH      snap TOUCH_CONTROLS=off
+  03:26:18.612  [                    ]  OPEN_ACK   24  UNK_24          raw 0b
+  03:26:18.653  [                    ]  STATE_SNAPSHOT   10  DEVICE REG      snap TOUCH_CONTROLS=off
+  03:26:24.867  [                    ]  0x00   32  LOG EXTENDED    log ' 
+'
+  03:26:24.867  [                    ]  0x24  106  UNK_106         raw 484232742f66513d3d10031de8690c002001050100140a0924647236513442456510031de8690c0020010501004c0a412456684543744156535a57466b65517072
+  ┌─ touch_ctrl_on ───────────────────────────────────────────────────────────────────
+  03:26:34.346  [touch_ctrl_on       ]  0x2f  119  UNK_119         raw 356f62334e304c584e6c593239755a47467965625965674d496b6f4252437651465810031d268e0c0020020501003c0a312437352f774a68467a5a574e76626d5268636e6b7463484a706257467965586d556b384b6b304235427077474641513d3d10031d2a8e
+  03:26:38.428  [touch_ctrl_on       ]  STATE_SNAPSHOT    8  KEEPALIVE       snap f3=11
+  03:26:38.428  [touch_ctrl_on       ]  STATE_SNAPSHOT    9  WEAR+TOUCH      snap TOUCH_CONTROLS=on
+  03:26:38.627  [touch_ctrl_on       ]  STATE_SNAPSHOT   10  DEVICE REG      snap TOUCH_CONTROLS=on
+  03:26:44.408  [touch_ctrl_on       ]  0x41   65  UNK_65          proto [?]
+  ┌─ touch_ctrl_off ──────────────────────────────────────────────────────────────────
+  03:26:59.085  [touch_ctrl_off      ]  STATE_SNAPSHOT    9  WEAR+TOUCH      snap TOUCH_CONTROLS=off
+  03:26:59.190  [touch_ctrl_off      ]  STATE_SNAPSHOT   10  DEVICE REG      snap TOUCH_CONTROLS=off
+  03:27:04.148  [touch_ctrl_off      ]  0x6d  111  UNK_111         diag le: ef ff ff ff ff ff 00 00 00 7e; tx level primar
+  03:27:04.148  [touch_ctrl_off      ]  0x30   32  LOG EXTENDED    log ' 18 47 94 00 00 10 0c; TWS tx level: 13.'
+  03:27:04.148  [touch_ctrl_off      ]  0x3d   16  UNK_16          proto [?]
+  └─────────────────────────────────────────────────────────────────────────────────
+  03:27:12.106  [                    ]  DATA→buds    5  CONN STATE      raw 
+  03:27:12.134  [                    ]  DATA→buds    6  CAPABILITY FLAGS  raw 03
+  03:27:13.021  [                    ]  0x65  108  UNK_108         diag 13.7 dBm; hfp loss 0, total 0; 
+  03:27:13.021  [                    ]  0x20   99  LOG EXTENDED B  log '18 47 94 00 00 10 0c; TWS tx lev'
+  03:27:23.034  [                    ]  0x55   83  UNK_83          raw 4658303150524556665130394e554578465645564510031d7d4d0d002001050100340a292437352f774a67786f62334e304c58427961573168636e6c41436c7a434f7a326b5162304259773d3d10031d874d0d00200105010038
+  ┌─ find_left ───────────────────────────────────────────────────────────────────────
+  03:27:27.567  [find_left           ]  CLOSE    3  REALTIME CONTROL  TEARDOWN
+  03:27:27.614  [find_left           ]  OPEN_ACK    5  CONN STATE      conn IDLE
+  03:27:27.695  [find_left           ]  OPEN_ACK    4  VERSION/AUDIO   version fw=0.0.1
+  03:27:27.696  [find_left           ]  OPEN_ACK    5  CONN STATE      conn CONNECTED
+  03:27:27.819  [find_left           ]  OPEN_ACK    4  VERSION/AUDIO   version fw=0.0.1
+  ┌─ find_right ──────────────────────────────────────────────────────────────────────
+  03:27:46.497  [find_right          ]  CLOSE    3  REALTIME CONTROL  TEARDOWN
+  03:27:46.521  [find_right          ]  OPEN_ACK    5  CONN STATE      conn IDLE
+  03:27:46.562  [find_right          ]  OPEN_ACK    5  CONN STATE      conn CONNECTED
+  03:27:46.563  [find_right          ]  OPEN_ACK    4  VERSION/AUDIO   AUDIO STREAM 15B
+  03:27:46.600  [find_right          ]  OPEN_ACK    4  VERSION/AUDIO   AUDIO STREAM 81B
+  03:27:55.924  [find_right          ]  CLOSE    3  REALTIME CONTROL  TEARDOWN
+  03:27:55.966  [find_right          ]  OPEN_ACK    5  CONN STATE      conn IDLE
+  03:27:56.014  [find_right          ]  OPEN_ACK    5  CONN STATE      conn CONNECTED
+  03:27:56.020  [find_right          ]  OPEN_ACK    4  VERSION/AUDIO   AUDIO STREAM 15B
+  03:27:56.082  [find_right          ]  OPEN_ACK    4  VERSION/AUDIO   AUDIO STREAM 81B
+  03:28:01.298  [find_right          ]  0x00   32  LOG EXTENDED    log ''
+  └─────────────────────────────────────────────────────────────────────────────────
+  03:28:14.826  [                    ]  CLOSE    3  REALTIME CONTROL  TEARDOWN
+  03:28:14.871  [                    ]  OPEN_ACK    5  CONN STATE      conn IDLE
+  03:28:14.927  [                    ]  OPEN_ACK    4  VERSION/AUDIO   AUDIO STREAM 15B
+  03:28:14.929  [                    ]  OPEN_ACK    5  CONN STATE      conn CONNECTED
+  03:28:14.962  [                    ]  OPEN_ACK    4  VERSION/AUDIO   AUDIO STREAM 81B
+  ┌─ about_page ──────────────────────────────────────────────────────────────────────
+  03:28:20.708  [about_page          ]  0x00   24  UNK_24          ascii $ly6WDGuFAXs=
+  03:28:20.708  [about_page          ]  0x4c  120  UNK_120         raw 68437651466e10031d442d0e002002050100140a092444632b585a41494310031de02e0e0020010501003c0a312437352f774a68467a5a574e76626d5268636e6b7463484a706257467965657652683849376b50672f6a51474241513d3d10031d482d0e0020020501
+  ┌─ firmware_page ───────────────────────────────────────────────────────────────────
+  03:28:52.688  [firmware_page       ]  CLOSE    3  REALTIME CONTROL  TEARDOWN
+  03:28:52.735  [firmware_page       ]  OPEN_ACK    5  CONN STATE      conn IDLE
+  03:28:52.803  [firmware_page       ]  OPEN_ACK    4  VERSION/AUDIO   AUDIO STREAM 15B
+  03:28:52.806  [firmware_page       ]  OPEN_ACK    5  CONN STATE      conn CONNECTED
+  03:28:52.847  [firmware_page       ]  OPEN_ACK    4  VERSION/AUDIO   AUDIO STREAM 81B
+  03:28:52.866  [firmware_page       ]  0x38   32  LOG EXTENDED    log ' 94 00 00 10 0c; TWS tx level: 13.7 dBm;'
+  └─────────────────────────────────────────────────────────────────────────────────
+  03:29:14.911  [                    ]  0xf1    2  HANDSHAKE       raw cap token 
+  03:29:14.911  [                    ]  0x3c   10  DEVICE REG      ascii B7CnOx9FVlRfRU5URVJfQUNUSVZFX01PREVf
+  03:29:14.911  [                    ]  0x57  108  UNK_108         raw 327876596d467358326868626d52735a58495341413d3d10031df0020f0020010501003c0a31246a337a306a683946566c52665255355552564a6651554e5553565a4658303150524556665130394e554578465645564510031d
+  03:29:14.911  [                    ]  0x51   48  UNK_48          proto [?]
+  ┌─ both_in_case ────────────────────────────────────────────────────────────────────
+  03:29:19.504  [both_in_case        ]  DATA→phone   11  STATUS STREAM   seq=1740 wear=BOTH_OUT tick=987205us batt_adc=125 conn=0x3
+  03:29:19.506  [both_in_case        ]  OPEN   11  STATUS STREAM   seq=1000
+  03:29:21.064  [both_in_case        ]  DATA→phone   12  UNK_12          ascii 
+  03:29:21.159  [both_in_case        ]  DATA→phone   10  DEVICE REG      device_id=3df7c2e
+  03:29:21.159  [both_in_case        ]  CLOSE    2  HANDSHAKE       raw cap token 
+  03:29:21.159  [both_in_case        ]  PING    2  HANDSHAKE       handshake proto
+  03:29:21.159  [both_in_case        ]  CLOSE    4  VERSION/AUDIO   AUDIO STREAM 0B
+  03:29:21.159  [both_in_case        ]  RESPONSE    4  VERSION/AUDIO   AUDIO STREAM 0B
+  03:29:21.159  [both_in_case        ]  CLOSE   17  UNK_17          ascii 
+  03:29:21.159  [both_in_case        ]  CLOSE   19  UNK_19          ascii 
+  03:29:21.159  [both_in_case        ]  CLOSE   21  UNK_21          ascii 
+  03:29:21.159  [both_in_case        ]  OPEN_ACK    5  CONN STATE      conn IDLE
+  03:29:21.159  [both_in_case        ]  OPEN    7  AUDIO CONFIG    audio cfg sr=16000Hz bit=24 codec=2
+  03:29:21.216  [both_in_case        ]  CLOSE    3  REALTIME CONTROL  TEARDOWN
+  03:29:21.218  [both_in_case        ]  OPEN_ACK    4  VERSION/AUDIO   AUDIO STREAM 15B
+  03:29:21.219  [both_in_case        ]  CLOSE    5  CONN STATE      conn CONNECTED
+  03:29:21.365  [both_in_case        ]  OPEN_ACK    4  VERSION/AUDIO   AUDIO STREAM 75B
+  03:29:21.367  [both_in_case        ]  OPEN_ACK    4  VERSION/AUDIO   AUDIO STREAM 15B
+  03:29:21.377  [both_in_case        ]  OPEN_ACK    4  VERSION/AUDIO   AUDIO STREAM 75B
+  03:29:21.396  [both_in_case        ]  OPEN_ACK   11  STATUS STREAM   seq=200Q
+  03:29:21.427  [both_in_case        ]  RESPONSE    2  HANDSHAKE       model: buds A
+  03:29:21.440  [both_in_case        ]  OPEN_ACK    6  CAPABILITY FLAGS  caps channels=11 rev=1
+  03:29:22.655  [both_in_case        ]  CLOSE    3  REALTIME CONTROL  TEARDOWN
+  03:29:22.701  [both_in_case        ]  OPEN_ACK    5  CONN STATE      conn IDLE
+  03:29:22.701  [both_in_case        ]  OPEN_ACK    5  CONN STATE      conn CONNECTED
+  03:29:22.779  [both_in_case        ]  OPEN_ACK    4  VERSION/AUDIO   AUDIO STREAM 15B
+  03:29:22.786  [both_in_case        ]  OPEN_ACK    4  VERSION/AUDIO   AUDIO STREAM 81B
+  03:29:22.834  [both_in_case        ]  STATE_SNAPSHOT    2  HANDSHAKE       snap proto
+  03:29:22.834  [both_in_case        ]  STATE_SNAPSHOT    5  CONN STATE      snap proto
+  03:29:22.834  [both_in_case        ]  STATE_SNAPSHOT    6  CAPABILITY FLAGS  snap proto
+  03:29:24.803  [both_in_case        ]  DATA→buds    2  HANDSHAKE       raw cap token 7e911180f4a2
+  03:29:24.811  [both_in_case        ]  DATA→buds    8  KEEPALIVE       pong val=36
+  03:29:24.811  [both_in_case        ]  DATA→buds    3  REALTIME CONTROL  battery bud=100% out_case case=27%
+  03:29:27.254  [both_in_case        ]  DATA→buds    3  REALTIME CONTROL  battery bud=100% in_case case=27%
+  03:29:27.258  [both_in_case        ]  CLOSE    3  REALTIME CONTROL  INIT/CASE
+  03:29:27.314  [both_in_case        ]  DATA→buds    3  REALTIME CONTROL  battery bud=100% in_case case=27%
+  03:29:27.336  [both_in_case        ]  STATE_SNAPSHOT    6  CAPABILITY FLAGS  snap proto
+  03:29:27.340  [both_in_case        ]  0x10    3  REALTIME CONTROL  raw cmd class=0x3 cmd=0x2
+  03:29:27.340  [both_in_case        ]  0x0f    0  UNK_0           raw 0501
+  03:29:27.340  [both_in_case        ]  0x5a   87  UNK_87          proto [?]
+  03:29:27.340  [both_in_case        ]  0x00   20  UNK_20          ascii $y5kH2w==
+  ────────────────────────────────────────────────────────────────────────────────────────────────
+  1438 packets
